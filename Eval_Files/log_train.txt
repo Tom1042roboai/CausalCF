@@ -1,0 +1,16 @@
+
+Mean of mse_3d over 1 epoch: 0.053037 
+Mean of mse_3d over 2 epoch: 0.028397 
+Mean of mse_3d over 3 epoch: 0.019495 
+Mean of mse_3d over 4 epoch: 0.014991 
+Mean of mse_3d over 5 epoch: 0.012320 
+Mean of mse_3d over 6 epoch: 0.010466 
+Mean of mse_3d over 7 epoch: 0.009144 
+Mean of mse_3d over 8 epoch: 0.008141 
+Mean of mse_3d over 9 epoch: 0.007359 
+Mean of mse_3d over 10 epoch: 0.006739 
+Mean of mse_3d over 11 epoch: 0.006214 
+Mean of mse_3d over 12 epoch: 0.005781 
+Mean of mse_3d over 13 epoch: 0.005421 
+Mean of mse_3d over 14 epoch: 0.005121 
+Mean of mse_3d over 15 epoch: 0.004837 
