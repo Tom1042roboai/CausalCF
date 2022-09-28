@@ -18,7 +18,8 @@ conda activate causalCF
 pip install -r requirements.txt
 ```
 4. Install Pytorch CUDA libraries:
-- Search the version of cudatoolkit that is compatible with your GPU.
+- Pytorch 1.8.0 was used for CausalCF.
+- Search the version of cudatoolkit that is compatible with your GPU. (e.g. RTX 3080 uses sm_86 and will need CUDA>=11.1)
 - Go to the Pytorch website and look for the corresponding version and install using the commands on the website: https://pytorch.org/get-started/previous-versions/
 
 ## Changes to CausalWorld Files
