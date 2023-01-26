@@ -1,12 +1,12 @@
-# AICS_2022_CausalCF
+# CausalCF
 Causal Counterfactuals for Improving the Robustness of Reinforcement Learning
 
 ## Installation
 Recommended to use a virtual environment. Compatibility is best on Linux. If using Windows OS can install WSL2.
 1. Clone the github repo and cd into folder:
 ```bash
-git clone https://github.com/Tom1042roboai/AICS_2022_CausalCF
-cd AICS_2022_CausalCF
+git clone https://github.com/Tom1042roboai/CausalCF
+cd CausalCF
 ```
 2. create virtual environment using conda:  
 ```bash
@@ -23,18 +23,18 @@ pip install -r requirements.txt
 - Go to the Pytorch website and look for the corresponding version and install using the commands on the website: https://pytorch.org/get-started/previous-versions/
 
 ## Changes to CausalWorld Files
-CausalCF modified relevant CausalWorld files to enable the use and update of a causal representation. The modified files are in the "AICS_2022_CausalCF/Changes_CausalWorld" folder. The corresponding original CausalWorld files have to be replaced with these files to run the experiments. The specific modifications made to the original files are described in the code files itself.
+CausalCF modified relevant CausalWorld files to enable the use and update of a causal representation. The modified files are in the "CausalCF/Changes_CausalWorld" folder. The corresponding original CausalWorld files have to be replaced with these files to run the experiments. The specific modifications made to the original files are described in the code files itself.
 1. Locate the CausalWorld library installed in your virtual environment, the path will be something like this: (Replace "userName" with your own system's one)
 ```bash
 cd /home/userName/anaconda3/envs/causalCF/lib/python3.7/site-packages/causal_world
 ```
-2. Move the modified causalworld.py file over from the path where AICS_2022_CausalCF was stored:
+2. Move the modified causalworld.py file over from the path where CausalCF was stored:
 ```bash
-mv pathToFolder/AICS_2022_CausalCF/Changes_CausalWorld/causalworld.py ./envs
+mv pathToFolder/CausalCF/Changes_CausalWorld/causalworld.py ./envs
 ```
-3. Move the task files over from the path where AICS_2022_CausalCF was stored:
+3. Move the task files over from the path where CausalCF was stored:
 ```bash
-mv pathToFolder/AICS_2022_CausalCF/Changes_CausalWorld/* ./task_generators
+mv pathToFolder/CausalCF/Changes_CausalWorld/* ./task_generators
 ```
 
 ## Setup Folders
